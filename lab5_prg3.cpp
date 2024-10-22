@@ -1,34 +1,33 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 int main()
 {
     int n;
     cout<<"Enter the size of the array : ";
     cin>>n;
-
-    cout<<"Enter the elements of the array : ";
     int arr[n];
+    cout<<"Element in the array is : ";
     for(int i=0; i<n; i++){
         cin>>arr[i];
     }
-
-    int x = 0;
-    int med = 0;
-    int median = 0;
-    for(int i=0; i<n; i++){
-        int count = 0;
-        for(int j=i; j<n; j++){
-            if(arr[i] == arr[j]){
-                count++;
-                med = arr[i];
+    int temp = 0;
+    for(int i=0; i<n-1; i++){
+        for(int j=i+1; j<n; j++){
+            if(arr[i]>arr[j]){
+                temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
             }
         }
-        if(count>x){
-            x = count;
-            median = med;
-        }
     }
-
-    cout<<"Median of the given array : "<<median;
+    float median = 0;
+    if(n%2==0){
+        median = (arr[n/2] + arr[(n/2)-1])/2.0;
+        }
+    else{
+        median = arr[n/2];
+        }
+    cout<<"Median is : "<<median;
 }
-
+    
