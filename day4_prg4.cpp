@@ -1,3 +1,5 @@
+/* Count number of inversion in an array. */
+
 #include <bits/stdc++.h>
 using namespace std;
 
