@@ -1,3 +1,5 @@
+/* Given a list n numbers, find the element which appears maximum number of times. */
+
 #include <iostream>
 using namespace std;
 
