@@ -1,3 +1,4 @@
+/*  Given a sorted array and a number x, find a pair in an array whose sum is x. */ 
 
 #include <iostream>
 using namespace std;
