@@ -1,3 +1,6 @@
+/*. Given an array of n distinct integers sorted in ascending order, write a function that
+returns a Fixed Point in the array, if there is any Fixed Point present in the array, it
+returns -1. */
 
 #include <iostream>
 using namespace std;
