@@ -1,3 +1,5 @@
+/* Given an array of integers, the task is to find the index of first repeating element in it */
+
 #include <iostream>
 using namespace std;
 int main()
