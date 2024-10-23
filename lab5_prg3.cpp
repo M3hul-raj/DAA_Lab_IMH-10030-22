@@ -1,3 +1,6 @@
+/*  In a given list of n-1 elements, which are in the range of 1 to n. There are no duplicates
+in the array. One of the integers is missing. Find the missing element. */
+
 #include <bits/stdc++.h>
 using namespace std;
 int main()
