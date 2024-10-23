@@ -1,3 +1,6 @@
+/*. Given an array of n elements that is first strictly increasing and then maybe strictly
+decreasing, find the maximum element in the array */
+
 #include <iostream>
 using namespace std;
 int main()
